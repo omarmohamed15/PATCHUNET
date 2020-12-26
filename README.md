@@ -10,9 +10,9 @@ First of all, put all the files in the same directory.
 
 Secondly, kindly, run the codes in sequence:
 
-1- Run "Step1_Patching.m" in Matlab, which generates the input patches for the PATCHUNET. \n",
-2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches. \n",
-3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.\n",
+1- Run "Step1_Patching.m" in Matlab, which generates the input patches for the PATCHUNET. \n
+2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches. \n
+3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.\n
 
 In Matlab, the parametr select is set to be zero in case of synthetic example and one in case of field example.
 
