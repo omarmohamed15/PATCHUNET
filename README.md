@@ -11,3 +11,5 @@ Kindly, run the codes in sequence:
 2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches.
 3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.
 
+In Matlab, the parametr select is set to be zero in case of synthetic example and one in case of field example.
+
