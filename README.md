@@ -6,10 +6,13 @@ We develop a deep learning algorithm (PATCHUNET) to suppress random noise and pr
 
 We develop a fully unsupervised deep learning approach (PATCHUNET) to suppress random noise based on the idea of the deep image prior. First, a patching technique is utilized to divide the input noisy data into several patches for training and testing. Following this, each patch is encoded to extract the meaningful features, allowing the decoder part to retrieve the clean signal and eliminate the random noise. Next, skip connections are used, between encoder and decoder parts, to extract high‐order features. 
 
-Kindly, run the codes in sequence:
-1- Run "Step1_Patching.m" in Matlab, which generates the input patches for the PATCHUNET.
-2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches.
-3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.
+First of all, put all the files in the same directory.
+
+Secondly, kindly, run the codes in sequence:
+
+1- Run "Step1_Patching.m" in Matlab, which generates the input patches for the PATCHUNET. \n",
+2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches. \n",
+3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.\n",
 
 In Matlab, the parametr select is set to be zero in case of synthetic example and one in case of field example.
 
