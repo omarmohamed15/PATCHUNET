@@ -16,5 +16,5 @@ Secondly, kindly, run the codes in sequence:
 
 3- RUN "Step3_UnPatching.m" in Matlab, which generates the denoised output signal.
 
-In Matlab, the parametr select is set to be zero in case of synthetic example and one in case of field example.
+In Matlab, the parametr "select" is set to be zero in case of synthetic example and one in case of field example.
 
