@@ -8,7 +8,7 @@ close all
 
 % Loading the Data 
 % Synthetic or Field Example, zero for synthetic and one for field example.
-select =1;
+select =0
 
 switch select
     case 0
