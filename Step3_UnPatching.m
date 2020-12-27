@@ -32,7 +32,7 @@ switch select
     case 0
     % obtain the SNR of the noisy data 
     fprintf('The SNR of the Noisy data is %0.3f \n',yc_snr(DataClean,DataNoisy))
-    % obtain the SNR of the noisy data 
+    % obtain the SNR of the denoised signal corresponding to the PATCHUNET. 
     fprintf('The SNR of the PATCHUNET is %0.3f \n',yc_snr(DataClean,out))
 end
 
