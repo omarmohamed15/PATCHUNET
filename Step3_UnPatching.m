@@ -40,6 +40,6 @@ end
 figure;yc_imagesc(DataNoisy);
 title('Noisy data')
 figure;yc_imagesc(out);
-title('Denoised Secton (PATHCUNET)')
+title('Denoised Signal (PATHCUNET)')
 figure;yc_imagesc(DataNoisy-out);
 title('Removed Noise Section (PATHCUNET)')
