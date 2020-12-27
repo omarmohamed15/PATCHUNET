@@ -11,6 +11,7 @@ First of all, put all the files in the same directory.
 Secondly, kindly, run the codes in sequence:
 
 1- Run "Step1_Patching.m" in Matlab, which generates the input patches for the PATCHUNET. 
+Note that, you should save .mat as -V 7.3 or later because the size of the generated patches is large.
 
 2- RUN "Step2_PATCHUNET.ipynb" in Jupyter Notebook, which generates the noiseless output patches. 
 
