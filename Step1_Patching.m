@@ -18,8 +18,8 @@ switch select
 end
 
 % preparing the patches where w1 and w2 are the patch size, while the s1z
-% and s2z are the number of shift samples between neighbor windows. The
-% default value are w1,w2 =48,48, and s1z,s2z=1,1.
+% and s2z are the number of shift samples between neighbor windows. 
+% The default values are w1,w2 =48,48, and s1z,s2z=1,1.
 dn1 = DataNoisy;
 w1 =48;
 w2 =48;
