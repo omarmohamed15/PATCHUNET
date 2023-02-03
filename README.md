@@ -19,3 +19,20 @@ Note that, you should save .mat as -V 7.3 or later because the size of the gener
 
 In Matlab, the parameter "select" is set to be zero in case of synthetic example and one in case of field example.
 
+
+## Reference
+
+Saad, Omar M., and Yangkang Chen. "A fully unsupervised and highly generalized deep learning approach for random noise suppression." Geophysical Prospecting 69, no. 4 (2021): 709-726.
+
+BibTeX:
+
+          @article{saadPatchunet,
+            title={A fully unsupervised and highly generalized deep learning approach for random noise suppression},
+            author={Saad, Omar M and Chen, Yangkang},
+            journal={Geophysical Prospecting},
+            volume={69},
+            number={4},
+            pages={709--726},
+            year={2021}
+          }
+-----------
